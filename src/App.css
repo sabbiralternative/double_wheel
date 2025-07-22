@@ -1,0 +1,73 @@
+:root {
+  --gen-color-1: 118, 212, 226;
+  --gen-color-3: 51, 180, 211;
+  --gen-color-4: 39, 148, 182;
+  --gen-color-5: 38, 105, 130;
+  --gen-color-6: 30, 67, 83;
+  --gen-color-7: 15, 37, 48;
+  --gen-color-8: 3, 9, 12;
+  --gen-color-9: 0, 0, 0;
+  --gen-color-10: 0, 0, 0;
+  --brand-color-1: 135, 255, 0;
+  --brand-color-1-2: 70, 176, 55;
+  --brand-color-1-3: 95, 164, 1;
+  --brand-color-1-4: 44, 125, 32;
+  --brand-color-set: 0, 0, 0;
+  --hero-color-1: 255, 187, 0;
+  --hero-color-2: 248, 177, 29;
+  --hero-color-3: 117, 222, 0;
+  --hero-color-4: 0, 198, 33;
+  --hero-color-5: 135, 255, 0;
+  --hero-color-set: 255, 255, 255;
+  --favorite-color-1: 224, 166, 10;
+  --favorite-color-1-2: 224, 166, 10;
+  --favorite-color-1-3: 220, 207, 88;
+  --favorite-color-1-4: 248, 231, 97;
+  --favorite-color-set: 255, 255, 255;
+  --static-color-1: 255, 187, 0;
+  --static-color-1-1: 255, 154, 0;
+  --static-color-2: 41, 176, 255;
+  --static-color-2-1: 0, 124, 197;
+  --static-color-3: 255, 49, 50;
+  --static-color-3-1: 192, 13, 13;
+  --static-color-4: 43, 132, 0;
+  --static-color-4-1: 70, 214, 0;
+  --static-set-color-1: 255, 255, 255;
+  --static-set-color-2: 255, 255, 255;
+  --static-set-color-3: 255, 255, 255;
+  --static-set-color-4: 255, 255, 255;
+  --text-color: 255, 255, 255;
+  --white-color: 255, 255, 255;
+  --black-color: 0, 0, 0;
+  --static-color-black: 0, 0, 0;
+  --opacity-selected: 0.7;
+  --opacity-hover: 1;
+  --opacity: 0.7;
+  --core-tab-hover: 0.7;
+  --opacity-zebra-view: 1;
+  --scheme-color-white: 30, 67, 83;
+  --left-right-bg-color: 30, 67, 83;
+  --list-item-bg-color: 255, 255, 255;
+  --opacity-semifull-df: 0.8 !important;
+  --history-item-bg-color: 30, 67, 83;
+  --center-bg-color: 38, 105, 130;
+  --popup-bg-color: 30, 67, 83;
+  --settings-bg-color: 30, 67, 83;
+}
+.lists-item-row {
+  --opacity: 0.04;
+}
+.list-item-history-title {
+  --gen-color-8: 255, 255, 255;
+  --opacity: 0.09;
+}
+.core-internet-problem-popup-body,
+.core-internet-problem-popup-body:after,
+.core-internet-problem-popup-body:before {
+  --gen-color-9: 30, 67, 83;
+}
+
+.result_item_content {
+  padding: 0 calc(0.4 * var(--num)) 0 calc(0.6 * var(--num));
+  margin-bottom: calc(0.4 * var(--num));
+}
