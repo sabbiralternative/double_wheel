@@ -11,7 +11,7 @@ const MobileLayout = ({ leftWheel, rightWheel, isWin, handleSpin }) => {
             <div className="double-wheel-game-block-inner">
               <div className="double-wheel-game-wheel">
                 <img
-                  src="/web_wheel_left.989d6e8ceed6ca257ce6.png"
+                  src="/double_wheel/web_wheel_left.989d6e8ceed6ca257ce6.png"
                   alt=""
                   style={{
                     transform: `rotate(${leftWheel}deg)`,
@@ -29,7 +29,7 @@ const MobileLayout = ({ leftWheel, rightWheel, isWin, handleSpin }) => {
               </div>
               <div className="double-wheel-game-wheel">
                 <img
-                  src="/web_wheel_right.3c55c8e32b0bffa533f0.png"
+                  src="/double_wheel/web_wheel_right.3c55c8e32b0bffa533f0.png"
                   alt=""
                   style={{
                     transform: `rotate(${rightWheel}deg)`,

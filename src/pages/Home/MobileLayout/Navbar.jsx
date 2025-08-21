@@ -1,16 +1,7 @@
 import { useSelector } from "react-redux";
-import { useAuth } from "../../../hooks/auth";
-import { useEffect } from "react";
 
 const Navbar = () => {
-  const { token, balance } = useSelector((state) => state.auth);
-  const { mutate: handleAuth } = useAuth();
-
-  useEffect(() => {
-    if (token) {
-      handleAuth();
-    }
-  }, [token, handleAuth]);
+  const { balance } = useSelector((state) => state.auth);
 
   return (
     <div className="top-mobile-wr">
