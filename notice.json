@@ -7,7 +7,7 @@
     "settings": {
       "siteTitle": "Double Wheel",
       "disabledDevtool": false,
-      "baseUrl": "/double_wheel",
+      "baseUrl": "",
       "lobby": "https://aura365.io"
     },
 
